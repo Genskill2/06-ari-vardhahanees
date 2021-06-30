@@ -10,7 +10,7 @@ string ari(string s)
   int sentences=0;
   for (int i=0; s[i]!='\0'; i++)
   {
-      if (isalnum(s[i])==1)
+      if (isalnum(s[i]))
       {
          characters++;
       }
