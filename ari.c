@@ -25,7 +25,7 @@ string ari(string s)
   }
   int score=0;
   string g;
-  score = ((4.71 * (characters/words)) + (0.5 * (words/sentences)) - 21.43); 
+  score = int(((4.71 * (characters/words)) + (0.5 * (words/sentences)) - 21.43)); 
   if (score==1)
     g="Kindergaten";
   else if (score==2)
