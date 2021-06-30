@@ -26,7 +26,6 @@ string ari(string s)
   int score=0;
   string g;
   score = (int) ceil((4.71 * (characters/(float) words)) + (0.5 * (words/(float) sentences)) - 21.43); 
-  printf("%d", score);
   if (score==1) 
     g="Kindergaten";
   else if (score==2)
