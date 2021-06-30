@@ -50,7 +50,7 @@ string ari(string s)
     g="Eleventh Grade";
   else if (score==12)
     g="Twelfth Grade";
-  else if (score==13)
+  else
     g="College student";
-  return(g);
+  return g;
 }
