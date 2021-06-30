@@ -26,7 +26,7 @@ string ari(string s)
   int score=0;
   string g;
   score = (int) ceil((4.71 * (characters/(float) words)) + (0.5 * (words/(float) sentences)) - 21.43); 
-  if (score==1) {
+  if (score==1) 
     g="Kindergaten";
   else if (score==2)
     g="First/Second Grade";
@@ -53,7 +53,6 @@ string ari(string s)
   else if (score==13)
     g="College student";
   else
-    return
-} 
+    return;
   return(g);
 }
