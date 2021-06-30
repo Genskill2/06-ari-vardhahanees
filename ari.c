@@ -2,7 +2,7 @@
 #include <string.h>
 #include <cs50.h>
 #include <ctype.h>
-#include<math.h>
+#include <math.h>
 string ari(string s)
 {
   int characters=0;
