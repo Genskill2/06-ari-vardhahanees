@@ -14,7 +14,7 @@ string ari(string s)
       {
          characters++;
       }
-    else if (s[i]==" ")
+    else if (s[i]==' ')
     {
        words++;
     }
@@ -51,7 +51,7 @@ string ari(string s)
   else if (score==12)
     g="Twelfth Grade";
   else if (score==13)
-    g=="College student";
+    g="College student";
   return(g);
 }
   
