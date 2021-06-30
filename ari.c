@@ -1,5 +1,3 @@
-#include<conio.h>
-#include<stido.h>
 string ari(string s)
 {
   int characters=0;
