@@ -15,7 +15,8 @@ string ari(string s)
     }
     else if (s[i]=='.' || s[i]=="!" || s[i]=="?")
     {
-       sentences++;
+     
+      sentences++;
     }
   }
   int ari=0;
