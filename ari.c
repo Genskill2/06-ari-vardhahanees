@@ -10,7 +10,7 @@ string ari(string s)
   int sentences=0;
   for (int i=0; s[i]!='\0'; i++)
   {
-      if (isalnum(s[i]))
+      if (isalnum(s[i])==1)
       {
          characters++;
       }
@@ -25,7 +25,7 @@ string ari(string s)
   }
   int score=0;
   string g;
-  score = (4.71 * (characters/words)) + (0.5 * (words/sentences)) - 21.43)); 
+  score = ((4.71 * (characters/words)) + (0.5 * (words/sentences)) - 21.43); 
   if (score==1)
     g="Kindergaten";
   else if (score==2)
