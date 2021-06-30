@@ -1,8 +1,9 @@
 #include <stdio.h>
-#include <math.h>
+#include <iostream.h>
 #include <string.h>
 #include <cs50.h>
 #include <ctype.h>
+#include<math.h>
 string ari(string s)
 {
   int characters=0;
@@ -23,10 +24,10 @@ string ari(string s)
       sentences++;
     }
   }
+  int score=0;
   string g;
-  int score = (int)ceil(((4.71 * (characters/words)) + (0.5 * (words/sentences)) - 21.43)); 
-
-  if (score==1)
+  score = (int) ceil((4.71 * (characters/words)) + (0.5 * (words/sentences)) - 21.43); 
+  if (score==1) {
     g="Kindergaten";
   else if (score==2)
     g="First/Second Grade";
@@ -54,5 +55,6 @@ string ari(string s)
     g="College student";
   else
     return;
+} 
   return(g);
 }
