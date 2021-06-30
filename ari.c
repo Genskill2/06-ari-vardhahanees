@@ -7,9 +7,9 @@ string ari(string s)
   int characters=0;
   int words=0;
   int sentences=0;
-  for (int i=0; s[i]!=/0; i++)
+  for (int i=0; s[i]!='\0'; i++)
   {
-      if (isalnum(s[i])==1)
+      if (isalnum(s[i]))
       {
          characters++;
       }
