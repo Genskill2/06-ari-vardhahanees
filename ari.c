@@ -23,9 +23,11 @@ string ari(string s)
       sentences++;
     }
   }
+  float f1 = (double)(characters/words);
+  float f2 = (double)(words/sentences);
   int score=0;
   string g;
-  score = (int) ceil((4.71 * (characters/(float) words)) + (0.5 * (words/(float) sentences)) - 21.43); 
+  score = (int) ceil((4.71 * f1) + (0.5 * f2)) - 21.43); 
   if (score==1) 
     g="Kindergaten";
   else if (score==2)
