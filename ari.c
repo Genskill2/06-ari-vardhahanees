@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <assert.h>
+#include <math.h>
 #include <string.h>
 #include <cs50.h>
 #include <ctype.h>
@@ -25,7 +25,7 @@ string ari(string s)
   }
   int score=0;
   string g;
-  score = ((4.71 * (characters/words)) + (0.5 * (words/sentences)) - 21.43); 
+  score = (int)ceil(((4.71 * (characters/words)) + (0.5 * (words/sentences)) - 21.43)); 
   if (score==1)
     g="Kindergaten";
   else if (score==2)
@@ -54,7 +54,3 @@ string ari(string s)
     g="College student";
   return(g);
 }
-  
-    
-    
-     
